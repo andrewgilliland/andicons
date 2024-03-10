@@ -1,14 +1,29 @@
 {
   "name": "gillicons",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "version": "0.0.1",
+  "description": "Some pretty mediocre React icons, enjoy.",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "repository": {
+    "url": "https://github.com/andrewgilliland/gillicons"
   },
-  "author": "",
-  "license": "ISC",
+  "scripts": {
+    "build": "tsup"
+  },
+  "keywords": [
+    "react",
+    "icons",
+    "svg"
+  ],
+  "author": "andrewgilliland",
+  "license": "MIT",
   "dependencies": {
     "react": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.64",
+    "tsup": "^8.0.2",
+    "typescript": "^5.4.2"
   }
 }
