@@ -1,12 +1,12 @@
 {
   "name": "andicons",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "Some pretty mediocre React icons, enjoy.",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
   "repository": {
-    "url": "https://github.com/andrewgilliland/andicons"
+    "url": "git+https://github.com/andrewgilliland/andicons.git"
   },
   "scripts": {
     "build": "tsup"
@@ -18,12 +18,13 @@
   ],
   "author": "andrewgilliland",
   "license": "MIT",
-  "dependencies": {
-    "react": "^18.2.0"
-  },
   "devDependencies": {
+    "react": "^18.2.0",
     "@types/react": "^18.2.64",
     "tsup": "^8.0.2",
     "typescript": "^5.4.2"
+  },
+  "peerDependencies": {
+    "react": "^18.2.0"
   }
 }
