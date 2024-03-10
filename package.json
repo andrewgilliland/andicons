@@ -6,7 +6,7 @@
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
   "repository": {
-    "url": "https://github.com/andrewgilliland/gillicons"
+    "url": "https://github.com/andrewgilliland/andicons"
   },
   "scripts": {
     "build": "tsup"
